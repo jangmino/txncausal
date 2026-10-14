@@ -107,7 +107,7 @@ def canonical_cand_map(frames: dict[str, pd.DataFrame], vocab) -> dict[int, str]
 
 def user_frames(frame: pd.DataFrame) -> dict[int, tuple[pd.DataFrame, pd.Series]]:
     """user_id -> (history rows sorted by paid_at, target row). Split CSVs keep exactly
-    one row on each user's last date (verified: structural_checks multi_last=0)."""
+    one row at each user's last purchase time (verified: structural_checks multi_last=0)."""
     out = {}
     for uid, udf in frame.groupby("user_id", sort=False):
         last_t = int(udf["initial_paid_at"].max())

@@ -24,7 +24,7 @@ def structural_checks(frames: dict[str, pd.DataFrame]) -> dict[str, object]:
         "train&test": len(users["train"] & users["test"]),
         "val&test": len(users["val"] & users["test"]),
     }
-    # each user has exactly one row on their last purchase date (the fixed target)
+    # each user has exactly one row at their last purchase time (the fixed target)
     multi_last = 0
     for s in SPLITS:
         g = frames[s].groupby("user_id")["initial_paid_at"]

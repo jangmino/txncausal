@@ -6,8 +6,8 @@ time-ordered. We emit both an item token sequence and a parallel ``txn_pos`` seq
 which same-order items share one position id -- the substrate for transaction-level
 positional encoding.
 
-The target is the single held-out item on the user's last purchase date (already fixed by
-the split, ``rs=42``); history excludes that entire last date.
+The target is the single held-out item at the user's last purchase time (already fixed by
+the split, ``rs=42``); history excludes every row at that time.
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ class UserSeq:
     user_idx: int
     items: list[int]          # item_idx, oldest -> newest (intra-txn order = as-stored)
     txn_ids: list[int]        # 0..T-1, shared within an order; parallel to `items`
-    target: int               # item_idx of the held-out last-date item
+    target: int               # item_idx of the held-out item (last purchase time)
     repeat: bool              # target appears in history items (label-in-features leak flag)
     has_copurchase: bool      # any history transaction with >=2 items
     # set when `items` is a recent-orders window of a longer history (Instacart): the FULL
