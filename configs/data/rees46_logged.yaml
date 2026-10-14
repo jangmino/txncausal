@@ -1,0 +1,9 @@
+name: rees46_logged            # REES46 electronics store as logged -- re-placed lines kept
+data_dir: data/rees46_logged     # built by: python -m mvcp.data.rees46
+max_orders: 20                 # B4: as in rees46.yaml (2 users reach the 64-item cap)
+max_seq_len: 64
+max_num_txn: 52
+epochs: 500                    # B11
+strata: [k1, k2, recency]      # B7
+cache_collate: true
+sdp_mem_efficient: false

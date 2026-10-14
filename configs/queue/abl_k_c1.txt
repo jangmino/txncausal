@@ -1,0 +1,122 @@
+# Decomposition (pre-registered, comparisons P1-P3 of the paper): the three position variants, with and without FW. Test, seeds 100-119.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+sasrec_txnpos_final2 100 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 100 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 100 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 100 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 100 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 100 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 101 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 101 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 101 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 101 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 101 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 101 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 102 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 102 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 102 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 102 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 102 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 102 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 103 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 103 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 103 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 103 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 103 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 103 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 104 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 104 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 104 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 104 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 104 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 104 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 105 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 105 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 105 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 105 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 105 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 105 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 106 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 106 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 106 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 106 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 106 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 106 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 107 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 107 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 107 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 107 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 107 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 107 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 108 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 108 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 108 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 108 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 108 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 108 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 109 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 109 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 109 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 109 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 109 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 109 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 110 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 110 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 110 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 110 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 110 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 110 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 111 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 111 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 111 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 111 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 111 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 111 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 112 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 112 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 112 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 112 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 112 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 112 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 113 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 113 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 113 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 113 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 113 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 113 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 114 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 114 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 114 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 114 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 114 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 114 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 115 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 115 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 115 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 115 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 115 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 115 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 116 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 116 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 116 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 116 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 116 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 116 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 117 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 117 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 117 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 117 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 117 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 117 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 118 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 118 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 118 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 118 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 118 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 118 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+sasrec_txnpos_final2 119 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+sasrec_txnpos 119 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos_final2 119 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+txf_txn_causal_itempos 119 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500
+bert4rec_txnpos 119 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500
+bert4rec_txnpos_final2 119 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500

@@ -1,0 +1,27 @@
+# Tuning of GRU4Rec and BERT4Rec, expansion round 2 (scripts/bl_expand_queue.py). Validation, seeds 0-4.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+bert4rec 0 --dim 64 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 0 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.7 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.5 --lr 0.002 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 1 --dim 64 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 1 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.7 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.5 --lr 0.002 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 2 --dim 64 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 2 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.7 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.5 --lr 0.002 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 3 --dim 64 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 3 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.7 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.5 --lr 0.002 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 4 --dim 64 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 4 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.7 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.5 --lr 0.002 --mask-prob 0.4 --epochs 500 --eval-split val

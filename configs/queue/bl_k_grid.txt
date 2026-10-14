@@ -1,0 +1,82 @@
+# Tuning of GRU4Rec and BERT4Rec, starting grid: d {64,128} x dropout {0.1,0.3} x lr {1e-3,5e-4}. Validation, seeds 0-4.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+gru4rec 0 --dim 64 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 0 --dim 64 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 64 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 0 --dim 64 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 64 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 0 --dim 64 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 64 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 0 --dim 64 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 128 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 128 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 128 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 0 --dim 128 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 0 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 64 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 1 --dim 64 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 64 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 1 --dim 64 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 64 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 1 --dim 64 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 64 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 1 --dim 64 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 128 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 128 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 128 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 1 --dim 128 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 1 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 64 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 2 --dim 64 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 64 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 2 --dim 64 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 64 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 2 --dim 64 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 64 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 2 --dim 64 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 128 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 128 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 128 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 2 --dim 128 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 2 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 64 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 3 --dim 64 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 64 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 3 --dim 64 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 64 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 3 --dim 64 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 64 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 3 --dim 64 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 128 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 128 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 128 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 3 --dim 128 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 3 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 64 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 4 --dim 64 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 64 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 4 --dim 64 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 64 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 4 --dim 64 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 64 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 4 --dim 64 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 128 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 128 --dropout 0.1 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.1 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 128 --dropout 0.3 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+gru4rec 4 --dim 128 --dropout 0.3 --lr 0.0005 --epochs 500 --eval-split val
+bert4rec 4 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val

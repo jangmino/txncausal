@@ -1,0 +1,32 @@
+# Screening round 3 (validation): the blended readout on SASRec as a symmetric control, and combinations.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+sasrec_final2_blendemb 0 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 1 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 2 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 3 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 4 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 5 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 6 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 7 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 8 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1
+sasrec_final2_blendemb 9 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb_relb 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_blendemb 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20 --txn-drop 0.1

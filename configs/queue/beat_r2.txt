@@ -1,0 +1,62 @@
+# Screening round 2 (validation): variants on top of TxnCausal+FW.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+txf_txn_causal_final2_bnorm 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_bnorm 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --txn-drop 0.1
+txf_txn_causal_final2 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --item-drop 0.2
+txf_txn_causal_final2_cloze1 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final4 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val

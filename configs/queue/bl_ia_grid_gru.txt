@@ -1,0 +1,26 @@
+# Instacart, tuning of GRU4Rec, starting grid: d {128,256} x dropout {0.1,0.3} x lr {1e-3,2e-3}. Validation, seeds 0-2.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+gru4rec 0 --data instacart_all --dim 128 --dropout 0.1 --lr 0.001 --eval-split val
+gru4rec 0 --data instacart_all --dim 128 --dropout 0.1 --lr 0.002 --eval-split val
+gru4rec 0 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --eval-split val
+gru4rec 0 --data instacart_all --dim 128 --dropout 0.3 --lr 0.002 --eval-split val
+gru4rec 0 --data instacart_all --dim 256 --dropout 0.1 --lr 0.001 --eval-split val
+gru4rec 0 --data instacart_all --dim 256 --dropout 0.1 --lr 0.002 --eval-split val
+gru4rec 0 --data instacart_all --dim 256 --dropout 0.3 --lr 0.001 --eval-split val
+gru4rec 0 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --eval-split val
+gru4rec 1 --data instacart_all --dim 128 --dropout 0.1 --lr 0.001 --eval-split val
+gru4rec 1 --data instacart_all --dim 128 --dropout 0.1 --lr 0.002 --eval-split val
+gru4rec 1 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --eval-split val
+gru4rec 1 --data instacart_all --dim 128 --dropout 0.3 --lr 0.002 --eval-split val
+gru4rec 1 --data instacart_all --dim 256 --dropout 0.1 --lr 0.001 --eval-split val
+gru4rec 1 --data instacart_all --dim 256 --dropout 0.1 --lr 0.002 --eval-split val
+gru4rec 1 --data instacart_all --dim 256 --dropout 0.3 --lr 0.001 --eval-split val
+gru4rec 1 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --eval-split val
+gru4rec 2 --data instacart_all --dim 128 --dropout 0.1 --lr 0.001 --eval-split val
+gru4rec 2 --data instacart_all --dim 128 --dropout 0.1 --lr 0.002 --eval-split val
+gru4rec 2 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --eval-split val
+gru4rec 2 --data instacart_all --dim 128 --dropout 0.3 --lr 0.002 --eval-split val
+gru4rec 2 --data instacart_all --dim 256 --dropout 0.1 --lr 0.001 --eval-split val
+gru4rec 2 --data instacart_all --dim 256 --dropout 0.1 --lr 0.002 --eval-split val
+gru4rec 2 --data instacart_all --dim 256 --dropout 0.3 --lr 0.001 --eval-split val
+gru4rec 2 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --eval-split val

@@ -1,0 +1,42 @@
+# Screening round 2b (validation): variants with their own learning rate for structural parameters, order-size embedding, order-local first layer.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+txf_txn_causal_final2_blendemb 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 0 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 1 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 2 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 3 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 4 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 5 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 6 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 7 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 8 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_blendemb 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_relb 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val --struct-lr-mult 20
+txf_txn_causal_final2_osize 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val
+txf_txn_causal_final2_local1 9 --dim 128 --dropout 0.3 --lr 0.00025 --eval-split val

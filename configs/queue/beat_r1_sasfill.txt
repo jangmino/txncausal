@@ -1,0 +1,7 @@
+# SASRec at its selected configuration (d 128, dropout 0.5, lr 2.5e-4): validation seeds 5-9.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+sasrec 5 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec 6 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec 7 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec 8 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec 9 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val

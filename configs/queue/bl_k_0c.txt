@@ -1,0 +1,4 @@
+# GRU4Rec and BERT4Rec, first runs at default hyperparameters (validation, seed 0); the same cells as in the starting grid.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+gru4rec 0 --dim 64 --dropout 0.1 --lr 0.001 --epochs 500 --eval-split val
+bert4rec 0 --dim 64 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val

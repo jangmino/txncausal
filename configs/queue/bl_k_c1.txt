@@ -1,0 +1,82 @@
+# Confirmatory experiment (pre-registered): GRU4Rec-T and BERT4Rec-T, each with and without FW. Test, seeds 100-119.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+gru4rec_final2 100 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 100 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 100 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 100 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 101 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 101 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 101 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 101 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 102 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 102 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 102 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 102 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 103 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 103 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 103 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 103 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 104 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 104 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 104 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 104 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 105 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 105 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 105 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 105 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 106 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 106 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 106 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 106 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 107 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 107 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 107 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 107 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 108 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 108 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 108 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 108 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 109 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 109 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 109 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 109 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 110 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 110 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 110 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 110 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 111 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 111 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 111 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 111 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 112 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 112 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 112 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 112 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 113 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 113 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 113 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 113 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 114 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 114 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 114 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 114 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 115 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 115 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 115 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 115 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 116 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 116 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 116 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 116 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 117 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 117 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 117 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 117 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 118 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 118 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 118 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 118 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec_final2 119 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec 119 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500
+gru4rec 119 --dim 256 --dropout 0.3 --lr 0.0005 --epochs 500
+bert4rec_final2 119 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500

@@ -1,0 +1,21 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+
+# outputs
+results/
+artifacts/
+PREFLIGHT.md
+DATASTATS.md
+
+# downloaded or generated data (README.md, "Data")
+data/instacart_raw/
+data/instacart_all/
+data/instacart_pdnew/
+data/rees46_raw/
+data/rees46/
+data/rees46_logged/

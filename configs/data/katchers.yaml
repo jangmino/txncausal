@@ -1,0 +1,6 @@
+name: katchers
+data_dir: data
+max_seq_len: 64
+max_num_txn: 52
+negatives_published: data/negatives/published.json
+cold_threshold: 3

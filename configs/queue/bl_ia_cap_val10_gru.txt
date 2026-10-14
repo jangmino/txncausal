@@ -1,0 +1,19 @@
+# Instacart, the width-capped GRU4Rec with and without FW, validation seeds 0-9.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+gru4rec 3 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec 4 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec 5 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec 6 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec 7 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec 8 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec 9 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 0 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 1 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 2 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 3 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 4 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 5 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 6 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 7 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 8 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val
+gru4rec_final2 9 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008 --eval-split val

@@ -1,0 +1,12 @@
+# Instacart, the TxnCausal configuration found by that later round, with FW, validation seeds 0-9.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+txf_txn_causal_final2 0 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 1 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 2 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 3 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 4 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 5 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 6 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 7 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 8 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal_final2 9 --data instacart_all --dim 512 --dropout 0.1 --lr 0.001 --eval-split val

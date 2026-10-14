@@ -1,0 +1,12 @@
+# BERT4Rec, masking ratio re-checked at the selected configuration. Validation, seeds 0-4.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+bert4rec 0 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.2 --epochs 500 --eval-split val
+bert4rec 0 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.6 --epochs 500 --eval-split val
+bert4rec 1 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.2 --epochs 500 --eval-split val
+bert4rec 1 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.6 --epochs 500 --eval-split val
+bert4rec 2 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.2 --epochs 500 --eval-split val
+bert4rec 2 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.6 --epochs 500 --eval-split val
+bert4rec 3 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.2 --epochs 500 --eval-split val
+bert4rec 3 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.6 --epochs 500 --eval-split val
+bert4rec 4 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.2 --epochs 500 --eval-split val
+bert4rec 4 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.6 --epochs 500 --eval-split val

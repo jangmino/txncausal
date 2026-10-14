@@ -1,0 +1,22 @@
+# Instacart, second confirmatory experiment (pre-registered): the width-capped GRU4Rec (footnote of Section VII). Test, seeds 100-119.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+gru4rec 100 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 101 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 102 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 103 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 104 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 105 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 106 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 107 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 108 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 109 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 110 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 111 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 112 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 113 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 114 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 115 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 116 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 117 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 118 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008
+gru4rec 119 --data instacart_all --dim 512 --dropout 0.3 --lr 0.008

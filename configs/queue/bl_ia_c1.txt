@@ -1,0 +1,42 @@
+# Instacart, confirmatory experiment (pre-registered): GRU4Rec-T+FW (d 1024) and BERT4Rec-T. Test, seeds 100-119.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+gru4rec_final2 100 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 100 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 101 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 101 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 102 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 102 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 103 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 103 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 104 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 104 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 105 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 105 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 106 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 106 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 107 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 107 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 108 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 108 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 109 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 109 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 110 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 110 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 111 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 111 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 112 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 112 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 113 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 113 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 114 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 114 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 115 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 115 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 116 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 116 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 117 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 117 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 118 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 118 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2
+gru4rec_final2 119 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.002
+bert4rec 119 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.2

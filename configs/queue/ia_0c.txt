@@ -1,0 +1,4 @@
+# Instacart, first runs (validation, seed 0); the same cell as in the starting grid.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+sasrec 0 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --eval-split val
+txf_txn_causal 0 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --eval-split val

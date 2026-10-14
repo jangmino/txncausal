@@ -1,0 +1,4 @@
+# REES46, first runs at default hyperparameters (validation, seed 0); the same cell as in the starting grid.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/rees46
+sasrec 0 --data rees46 --dim 64 --dropout 0.1 --lr 0.001 --eval-split val
+txf_txn_causal 0 --data rees46 --dim 64 --dropout 0.1 --lr 0.001 --eval-split val

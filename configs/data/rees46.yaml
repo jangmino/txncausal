@@ -1,0 +1,10 @@
+name: rees46                   # REES46 electronics store, re-placed lines removed
+data_dir: data/rees46    # built by: python -m mvcp.data.rees46
+max_orders: 20                 # B4: most recent transactions fed to the model (no user has more)
+max_seq_len: 64                #     and its item cap, cut at transaction boundaries (1 user)
+max_num_txn: 52
+epochs: 500                    # B11: cap; patience 30 stops every run that has plateaued
+strata: [k1, k2, recency]      # B7: K1, K2, K4 in the per-user records (K3 = last_multi / last_single)
+# B11, applied to every model alike. Selection = masked full-catalog NDCG@10 (the default).
+cache_collate: true            # collate each user once (tensor-identical batches)
+sdp_mem_efficient: false       # the plain attention kernel (reproducible run to run)

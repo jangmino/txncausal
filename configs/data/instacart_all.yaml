@@ -1,0 +1,15 @@
+name: instacart_all            # new sample, all 21 departments
+data_dir: data/instacart_all     # built by: python -m mvcp.data.instacart_all
+max_orders: 50                 # A4: the PD-study window -- most recent orders fed to the model
+max_seq_len: 512               #     and its item cap, cut at order boundaries
+                               #     (8% of users lose their oldest orders)
+max_num_txn: 52
+select_protocol: full_nomask   # A5: selection = the primary metric (no history masking)
+epochs: 500                    # A11: cap; patience 30 stops every run that has plateaued
+strata: [recency, last_size, dept]     # A7: R1, R4, R2 + R3 in the per-user records
+# efficiency for long sequences, applied to every model alike (as in instacart.yaml):
+cache_collate: true
+compact_loss: true
+len_split: true
+sdp_mem_efficient: false
+eval_batch_size: 64

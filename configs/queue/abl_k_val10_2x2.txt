@@ -1,0 +1,32 @@
+# SASRec variant and TxnCausal variant at the selected configurations, validation seeds 0-9.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+sasrec_txnpos_final2 5 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos_final2 5 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos_final2 6 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos_final2 6 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos_final2 7 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos_final2 7 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos_final2 8 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos_final2 8 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos_final2 9 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos_final2 9 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 0 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 0 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 1 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 1 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 2 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 2 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 3 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 3 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 4 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 4 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 5 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 5 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 6 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 6 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 7 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 7 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 8 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 8 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos 9 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 9 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val

@@ -1,0 +1,14 @@
+dim: 64
+nhead: 4
+num_layers: 2
+dropout: 0.1
+lr: 1.0e-3
+weight_decay: 0.0
+epochs: 100
+batch_size: 64
+# checkpoint grid: every epoch (transformer rungs peak at epoch 2-4, off the old 5-grid);
+# patience counts evals, so 30 keeps the early-stop grace at 30 epochs unchanged
+eval_every: 1
+patience: 30
+seeds: [0,1,2,3,4]
+device: cuda

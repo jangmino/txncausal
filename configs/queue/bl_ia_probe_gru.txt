@@ -1,0 +1,8 @@
+# Instacart, GRU4Rec, two unseen neighbours of the selected configuration. Validation, seeds 0-2.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+gru4rec 0 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.001 --eval-split val
+gru4rec 0 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.004 --eval-split val
+gru4rec 1 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.001 --eval-split val
+gru4rec 1 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.004 --eval-split val
+gru4rec 2 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.001 --eval-split val
+gru4rec 2 --data instacart_all --dim 1024 --dropout 0.5 --lr 0.004 --eval-split val

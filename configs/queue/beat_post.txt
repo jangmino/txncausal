@@ -1,0 +1,72 @@
+# Registered after experiment 2: the symmetric control (FW given to SASRec; comparison S1 of the paper) and the training-set-size analysis (10% and 25% of the training users, test seeds 100-109).
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+sasrec_final2 0 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 1 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 2 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 3 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 4 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 5 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 6 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 7 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 8 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 9 --dim 128 --dropout 0.5 --lr 0.00025 --eval-split val
+sasrec_final2 100 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 101 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 102 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 103 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 104 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 105 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 106 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 107 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 108 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 109 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 110 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 111 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 112 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 113 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 114 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 115 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 116 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 117 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 118 --dim 128 --dropout 0.5 --lr 0.00025
+sasrec_final2 119 --dim 128 --dropout 0.5 --lr 0.00025
+txf_txn_causal_final2 100 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 100 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 100 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 100 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 101 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 101 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 101 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 101 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 102 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 102 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 102 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 102 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 103 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 103 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 103 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 103 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 104 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 104 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 104 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 104 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 105 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 105 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 105 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 105 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 106 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 106 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 106 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 106 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 107 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 107 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 107 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 107 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 108 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 108 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 108 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 108 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25
+txf_txn_causal_final2 109 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.1
+sasrec 109 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.1
+txf_txn_causal_final2 109 --dim 128 --dropout 0.3 --lr 0.00025 --train-frac 0.25
+sasrec 109 --dim 128 --dropout 0.5 --lr 0.00025 --train-frac 0.25

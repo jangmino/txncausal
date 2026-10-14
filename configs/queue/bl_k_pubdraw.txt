@@ -1,0 +1,22 @@
+# TxnCausal-T+FW, test seeds 100-119, scored on the 1:49 negatives released with Park and Oh (2024) (--negatives published), for the sampled-protocol comparison with BERT-NSP. Training is identical to the runs of beat_c2.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers_pub
+txf_txn_causal_final2 100 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 101 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 102 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 103 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 104 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 105 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 106 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 107 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 108 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 109 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 110 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 111 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 112 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 113 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 114 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 115 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 116 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 117 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 118 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published
+txf_txn_causal_final2 119 --dim 128 --dropout 0.3 --lr 0.00025 --negatives published

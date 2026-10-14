@@ -1,0 +1,17 @@
+# BERT4Rec variant with and without FW at the selected configuration, validation seeds 0-9 (choice of the representative).
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+bert4rec_txnpos 5 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 6 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 7 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 8 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 9 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 0 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 1 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 2 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 3 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 4 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 5 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 6 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 7 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 8 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 9 --dim 128 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val

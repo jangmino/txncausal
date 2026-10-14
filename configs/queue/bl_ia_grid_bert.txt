@@ -1,0 +1,26 @@
+# Instacart, tuning of BERT4Rec, starting grid: d {128,256} x dropout {0.1,0.3} x lr {1e-3,2e-3}. Validation, seeds 0-2.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/instacart_all
+bert4rec 0 --data instacart_all --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 128 --dropout 0.1 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 128 --dropout 0.3 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 256 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 256 --dropout 0.1 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 256 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 0 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 128 --dropout 0.1 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 128 --dropout 0.3 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 256 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 256 --dropout 0.1 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 256 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 1 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 128 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 128 --dropout 0.1 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 128 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 128 --dropout 0.3 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 256 --dropout 0.1 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 256 --dropout 0.1 --lr 0.002 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 256 --dropout 0.3 --lr 0.001 --mask-prob 0.4 --eval-split val
+bert4rec 2 --data instacart_all --dim 256 --dropout 0.3 --lr 0.002 --mask-prob 0.4 --eval-split val

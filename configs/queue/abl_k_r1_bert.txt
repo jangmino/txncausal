@@ -1,0 +1,17 @@
+# BERT4Rec variant, expansion round (scripts/abl_expand_queue.py). Validation, seeds 0-4.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+bert4rec_txnpos 0 --dim 256 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 0 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 0 --dim 128 --dropout 0.3 --lr 0.00025 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 1 --dim 256 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 1 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 1 --dim 128 --dropout 0.3 --lr 0.00025 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 2 --dim 256 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 2 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 2 --dim 128 --dropout 0.3 --lr 0.00025 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 3 --dim 256 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 3 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 3 --dim 128 --dropout 0.3 --lr 0.00025 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 4 --dim 256 --dropout 0.3 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 4 --dim 128 --dropout 0.5 --lr 0.0005 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos 4 --dim 128 --dropout 0.3 --lr 0.00025 --mask-prob 0.4 --epochs 500 --eval-split val

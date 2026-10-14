@@ -1,0 +1,14 @@
+name: instacart_pdnew          # new sample, produce + dairy eggs only
+data_dir: data/instacart_pdnew   # built by: python -m mvcp.data.instacart_all
+max_orders: 50                 # A4: the PD-study window
+max_seq_len: 512
+max_num_txn: 52
+select_protocol: full_nomask   # A5
+epochs: 500                    # A11
+strata: [recency, last_size]   # A7: R1, R4 (every target is produce / dairy eggs)
+# efficiency for long sequences, applied to every model alike (as in instacart.yaml):
+cache_collate: true
+compact_loss: true
+len_split: true
+sdp_mem_efficient: false
+eval_batch_size: 64

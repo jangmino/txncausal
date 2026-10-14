@@ -1,0 +1,8 @@
+# Position variants, first runs at the hyperparameters of their parents (validation, seed 0).
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/katchers
+sasrec_txnpos 0 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+sasrec_txnpos_final2 0 --dim 128 --dropout 0.5 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos 0 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+txf_txn_causal_itempos_final2 0 --dim 128 --dropout 0.3 --lr 0.00025 --epochs 500 --eval-split val
+bert4rec_txnpos 0 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val
+bert4rec_txnpos_final2 0 --dim 256 --dropout 0.5 --lr 0.001 --mask-prob 0.4 --epochs 500 --eval-split val

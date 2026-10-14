@@ -1,0 +1,32 @@
+# REES46, both models with and without FW at the selected configuration, validation seeds 0-9.
+# One job per line: <model> <seed> [mvcp-train options]. Results directory in README.md: results/rees46
+sasrec_final2 0 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 0 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 1 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 1 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 2 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 2 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 3 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 3 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 4 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 4 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 5 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 5 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec 5 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal 5 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 6 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 6 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec 6 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal 6 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 7 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 7 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec 7 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal 7 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 8 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 8 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec 8 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal 8 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec_final2 9 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal_final2 9 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+sasrec 9 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
+txf_txn_causal 9 --data rees46 --dim 64 --dropout 0.7 --lr 0.00025 --eval-split val
